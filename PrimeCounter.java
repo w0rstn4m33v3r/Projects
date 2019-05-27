@@ -1,3 +1,7 @@
+/*
+	Just a simple java class that will count to whatever number you enter and tell you if it is even/odd or a prime number.
+*/
+
 package primecounter;
 
 import java.util.Scanner;
