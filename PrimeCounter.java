@@ -41,7 +41,7 @@ public class PrimeCounter {
 		System.out.println("end of program.");
 	}
 		public static String isPrime(int x) {
-			if ((x * x - 1) % 24 == 0){
+			if (((x * x - 1) % 24 == 0) || (x == 2 || x == 3)){
 				return " is Prime!";}
 			else{
 				return " is not Prime.";}
